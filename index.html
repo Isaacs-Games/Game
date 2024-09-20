@@ -60,7 +60,12 @@
 
   <nav aria-labelledby="main-title">
 <ul>
-  <button>TBOI</button>
+ 
+    </ul>
+  </nav>
+</body>
+</html> 
+<button>TBOI</button>
   <script>
     var urlObj = new window.URL(window.location.href);
     var url = "https://gnhustgames.org/the-binding-of-isaac-source";
@@ -80,13 +85,8 @@
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.style.margin = '0';
-        iframe.src = "https://gnhustgames.org/the-binding-of-isaac-source";
+        iframe.src = url;
         win.document.body.appendChild(iframe);
       }
-      document.querySelector('button').style.background='gray';
+      document.querySelector('button').style.background='blue';
       document.querySelector('button').innerHTML="TBOI";
-  </script>
-    </ul>
-  </nav>
-</body>
-</html> 
